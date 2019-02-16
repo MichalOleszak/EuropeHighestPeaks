@@ -7,8 +7,10 @@ Assumptions behind the list:
     * Pico del Teide - Spain, Canary Islands;
     * Gunnbjørn Fjeld - Danmark, Greenland;
     * Mount Scenery - The Netherlands, Carribean Netherlands.
-* In the case of countries located partly in Europe (Turkey, Russia, Kazakhstan), the peak considered in the list is the highest peak of their European area.
+* In the case of countries located partly in Europe (Turkey, Russia and Kazakhstan), the peak considered in the list is the highest peak of their European area.
 * The Italian-French border is assumed to run below the summit of Mont Blanc. Thus, Italy's highest peak is Mont Blanc de Courmayeur and Mont Blanc is located entirely in France.
+
+![](img/kge.png)
 
 
 | Rank|Country                |Peak                       |Elevation |Climbed             |
@@ -60,8 +62,3 @@ Assumptions behind the list:
 |   45|Monaco                 |Chemin des Revoires        |163 m     |                    |
 |   46|Vatican                |Vatican Hill               |75 m      |                    |
 
-![](img/kge.png)
-
-# Visited Places
-
-![](img/visited_places.png)
