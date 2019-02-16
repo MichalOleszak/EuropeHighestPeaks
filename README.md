@@ -20,7 +20,7 @@ Assumptions behind the list:
 |    5|Spain                  |Mulhacen                   |3 479 m   |                    |
 |    6|Germany                |Zugspitze                  |2 962 m   |                    |
 |    7|Andorra                |Coma Pedrosa               |2 942 m   |                    |
-|    8|Bulgaria               |Musala                     |2 925 m   | &#9745; |
+|    8|Bulgaria               |Musala                     |2 925 m   | [X] |
 |    9|Greece                 |Mytikas                    |2 919 m   |                    |
 |   10|Slovenia               |Triglav                    |2 864 m   |                    |
 |   11|Albania & Macedonia    |Korab                      |2 764 m   |                    |
