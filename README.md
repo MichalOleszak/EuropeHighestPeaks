@@ -1,13 +1,15 @@
 # Highest Peaks of European Countries
 
-Assumptions behind the list:
+The goal of the project is to visit the highest natural elevation of each sovereign state on the continent of Europe. Most of them are mountains or hills, but some are simply elevations that are not distinguishable as geographical features.
+
+### Assumptions behind the list
 
 * Only peaks located in Europe, with its [borders as defined by the International Geographical Union](https://en.wikipedia.org/wiki/Boundaries_between_the_continents_of_Earth#Europe_and_Asia), are considered. This means that Mount Elbrus is located in Asia and is not part of the list.
-* Peaks belonging to European countries, but located outside of Europe, are not considered. Examples are:
+* Peaks belonging to European countries, but located outside of Europe, are not considered. Examples include:
     * Pico del Teide - Spain, Canary Islands;
     * Gunnbjørn Fjeld - Denmark, Greenland;
     * Mount Scenery - The Netherlands, Carribean Netherlands.
-* In the case of countries located partly in Europe (Turkey, Russia and Kazakhstan), the peak considered in the list is the highest peak of their European area.
+* In the case of countries located partly in Europe (Turkey, Russia and Kazakhstan), the peak considered in the list is the highest peak of their European territory.
 * The Italian-French border is assumed to run below the summit of Mont Blanc. Thus, Italy's highest peak is Mont Blanc de Courmayeur and Mont Blanc is located entirely in France.
 
 ![](img/kge.png)
@@ -61,4 +63,19 @@ Assumptions behind the list:
 |   44|Malta                  |Ta' Dmejrek                |253 m     |                    |
 |   45|Monaco                 |Chemin des Revoires        |163 m     |                    |
 |   46|Vatican                |Vatican Hill               |75 m      |                    |
+
+### Other significant peaks
+
+| Rank|Country                |Peak                       |Elevation |Climbed             |
+|----:|:----------------------|:--------------------------|:---------|:-------------------|
+|    -|Romania                |Viștea Mare                |2 527 m   | ✔                 | 
+|    -|Poland                 |Świnica                    |2 301 m   | ✔                 | 
+|    -|Iceland                |Snæfell                    |1 833 m   | ✔                 | 
+|    -|United States          |Ensign Peak                |1 651 m   | ✔                 | 
+|    -|Japan                  |Mount Hiei                 |848 m     | ✔                 | 
+|    -|Norway                 |Preikestolen               |604 m     | ✔                 | 
+
+
+ 
+
 
