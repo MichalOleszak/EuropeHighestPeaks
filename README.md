@@ -2,7 +2,7 @@
 
 Assumptions behind the list:
 
-* Only peaks located in Europe, with its borders as defined by the International Geographical Union, are considered. This means that Mount Elbrus is located in Asia and is not part of the list.
+* Only peaks located in Europe, with its [borders as defined by the International Geographical Union](https://en.wikipedia.org/wiki/Boundaries_between_the_continents_of_Earth#Europe_and_Asia), are considered. This means that Mount Elbrus is located in Asia and is not part of the list.
 * Peaks belonging to European countries, but located outside of Europe, are not considered. Examples are:
     * Pico del Teide - Spain, Canary Islands;
     * Gunnbjørn Fjeld - Danmark, Greenland;
@@ -20,14 +20,14 @@ Assumptions behind the list:
 |    5|Spain                  |Mulhacen                   |3 479 m   |                    |
 |    6|Germany                |Zugspitze                  |2 962 m   |                    |
 |    7|Andorra                |Coma Pedrosa               |2 942 m   |                    |
-|    8|Bulgaria               |Musala                     |2 925 m   | [X] |
+|    8|Bulgaria               |Musala                     |2 925 m   | :white_check_mark: |
 |    9|Greece                 |Mytikas                    |2 919 m   |                    |
 |   10|Slovenia               |Triglav                    |2 864 m   |                    |
 |   11|Albania & Macedonia    |Korab                      |2 764 m   |                    |
 |   12|Kosovo                 |Djeravica                  |2 656 m   |                    |
 |   13|Slovakia               |Gerlach                    |2 655 m   |                    |
 |   14|Liechtenstein          |Grauspitz                  |2 599 m   |                    |
-|   15|Romania                |Moldoveanu                 |2 544 m   | &#9745; |
+|   15|Romania                |Moldoveanu                 |2 544 m   | :white_check_mark: |
 |   16|Montenegro             |Zla Kolata                 |2 534 m   |                    |
 |   17|Poland                 |Rysy                       |2 499 m   |                    |
 |   18|Norway                 |Galdhopiggen               |2 469 m   |                    |
@@ -39,28 +39,26 @@ Assumptions behind the list:
 |   24|Ukraine                |Hoverla                    |2 061 m   |                    |
 |   25|Russia                 |Mount Narodnaya            |1 895 m   |                    |
 |   26|Croatia                |Vrh Dinare                 |1 831 m   |                    |
-|   27|Czech Republic         |Snezka                     |1 603 m   | &#9745; |
+|   27|Czech Republic         |Snezka                     |1 603 m   | :white_check_mark: |
 |   28|United Kingdom         |Ben Nevis                  |1 344 m   |                    |
 |   29|Finland                |Halti                      |1 324 m   |                    |
-|   30|Ireland                |Carrantuohill              |1 041 m   | &#9745; |
+|   30|Ireland                |Carrantuohill              |1 041 m   | :white_check_mark: |
 |   31|Turkey                 |Mahya Dagi                 |1 031 m   |                    |
 |   32|Hungary                |Kekes                      |1 014 m   |                    |
 |   33|Denmark                |Slaettaratindur            |882 m     |                    |
-|   34|San Marino             |Monte Titano               |749 m     | &#9745; |
-|   35|Belgium                |Signal de Botrange         |694 m     | &#9745; |
+|   34|San Marino             |Monte Titano               |749 m     | :white_check_mark: |
+|   35|Belgium                |Signal de Botrange         |694 m     | :white_check_mark: |
 |   36|Luksemburg             |Kneiff                     |560 m     |                    |
 |   37|Kazakhstan             |Unnamed peak               |509 m     |                    |
 |   38|Moldova                |Balanesti                  |430 m     |                    |
 |   39|Belarus                |Dzyarzhynskaya Hara        |345 m     |                    |
-|   40|The Netherlands        |Vaalsenberg                |321 m     | &#9745; |
+|   40|The Netherlands        |Vaalsenberg                |321 m     | :white_check_mark: |
 |   41|Estonia                |Suur Munamagi              |318 m     |                    |
 |   42|Latvia                 |Gaizinkalns                |312 m     |                    |
 |   43|Lithuania              |Aukstojas Hill             |294 m     |                    |
 |   44|Malta                  |Ta' Dmejrek                |253 m     |                    |
 |   45|Monaco                 |Chemin des Revoires        |163 m     |                    |
 |   46|Vatican                |Vatican Hill               |75 m      |                    |
-
-![](img/kge.png)
 
 # Visited Places
 
