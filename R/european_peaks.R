@@ -3,7 +3,27 @@ library(ggplot2)
 library(ggmap)
 library(readr)
 
+eur_ctrs <- c("Portugal", "Spain", "Monaco", "France", "Poland",
+"Gibraltar", "England", "Scotland", "Ireland", "Belgium",
+"Netherlands", "Germany", "Switzerland", "Austria", "Italy",
+"SanMarino", "Vatican", "Croatia", "Montenegro", "Greece",
+"Bulgaria", "Romania", "Hungary", "Slovakia", "CzechRepublic",
+"Denmark", "Sweden", "Norway", "Iceland", "Georgia", "Cyprus",
+"UK", "Czech Republic", "Serbia", "Kosovo", "Moldova", "Ukraine",
+"Russia", "Faroe Islands", "Lithuania", "Latvia", "Macedonia",
+"Estonia", "Malta", "Belarus", "Turkey", "Slovenia", "Finland",
+"Kazakhstan", "Bosnia", "Albania", "Luxembourg", "Liechtenstein",
+"Azerbaijan", "Armenia")
+
 eur_peaks <- read_delim("data/eur_peaks.csv", delim = ";")
+
+kable(
+  eur_peaks %>% 
+    select(-lat, -lon) %>% 
+    mutate(Rank = row_number(),
+           Elevation = paste0(Elevation, " m")) %>% 
+    select(Rank, everything())
+)
 
 plt <- ggplot(eur_peaks, aes(x = lon, y = lat, text = Peak)) + 
   borders("world", regions = eur_ctrs, colour = "gray80", fill = "gray50",
