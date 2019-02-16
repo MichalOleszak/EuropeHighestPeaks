@@ -9,7 +9,7 @@ visited <- list(
   "Spain" = c("Madrid", "Barcelona", "San Sebastian", "Lloret de Mar", 
               "Tossa de Mar", "Sevilla", "Granada", "Cordoba"),
   "Monaco" = c("Monaco"),
-  "France" = c("Paris", "Carcassone", "Cannes", "Nice"),
+  "France" = c("Paris", "Carcassone", "Cannes", "Nice", "Biarritz"),
   "Poland" = c("Warsaw", "Cracow", "Gdansk", "Poznan", "Zakopane", "Katowice",
                "Torun", "Gdynia", "Sopot", "Kielce", "Rzeszow", "Radom", 
                "Kazimierz Dolny", "Jelenia Gora", "Sandomierz", "Kolobrzeg",
