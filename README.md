@@ -60,6 +60,8 @@ Assumptions behind the list:
 |   45|Monaco                 |Chemin des Revoires        |163 m     |                    |
 |   46|Vatican                |Vatican Hill               |75 m      |                    |
 
+![](img/kge.png)
+
 # Visited Places
 
 ![](img/visited_places.png)
