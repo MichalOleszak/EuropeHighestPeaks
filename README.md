@@ -12,6 +12,8 @@ The goal of the project is to visit the highest natural elevation of each sovere
 * In the case of countries located partly in Europe (Turkey, Russia and Kazakhstan), the peak considered in the list is the highest peak of their European territory.
 * The Italian-French border is assumed to run below the summit of Mont Blanc. Thus, Italy's highest peak is Mont Blanc de Courmayeur and Mont Blanc is located entirely in France.
 
+### Climbing progress
+
 ![](img/kge.png)
 
 
