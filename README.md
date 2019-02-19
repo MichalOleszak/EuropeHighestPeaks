@@ -66,16 +66,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |   45|Monaco                 |Chemin des Revoires        |163 m     |                    |
 |   46|Vatican                |Vatican Hill               |75 m      |                    |
 
-### Other significant peaks
 
-| Rank|Country                |Peak                       |Elevation |Climbed             |
-|----:|:----------------------|:--------------------------|:---------|:-------------------|
-|    -|Romania                |Viștea Mare                |2 527 m   | ✔                 | 
-|    -|Poland                 |Świnica                    |2 301 m   | ✔                 | 
-|    -|Iceland                |Snæfell                    |1 833 m   | ✔                 | 
-|    -|United States          |Ensign Peak                |1 651 m   | ✔                 | 
-|    -|Japan                  |Mount Hiei                 |848 m     | ✔                 | 
-|    -|Norway                 |Preikestolen               |604 m     | ✔                 | 
 
 
  
