@@ -36,7 +36,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |   15|Romania                |Moldoveanu                 |2 544 m   | ✔️ |
 |   16|Montenegro             |Zla Kolata                 |2 534 m   |                    |
 |   17|Poland                 |Rysy                       |2 499 m   |                    |
-|   18|Norway                 |Galdhopiggen               |2 469 m   | ✔ | 
+|   18|Norway                 |Galdhopiggen               |2 469 m   | ✔️ |
 |   19|Bosnia and Herzegovina |Maglic                     |2 386 m   |                    |
 |   20|Portugal               |Pico                       |2 351 m   |                    |
 |   21|Serbia                 |Midzur                     |2 169 m   |                    |
