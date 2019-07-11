@@ -61,7 +61,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |   40|The Netherlands        |Vaalsenberg                |321 m     | ✔️ |
 |   41|Estonia                |Suur Munamagi              |318 m     |                    |
 |   42|Latvia                 |Gaizinkalns                |312 m     |                    |
-|   43|Lithuania              |Aukstojas Hill             |294 m     |                    |
+|   43|Lithuania              |Aukstojas Hill             |294 m     | ✔️ |
 |   44|Malta                  |Ta' Dmejrek                |253 m     |                    |
 |   45|Monaco                 |Chemin des Revoires        |163 m     |                    |
 |   46|Vatican                |Vatican Hill               |75 m      |                    |

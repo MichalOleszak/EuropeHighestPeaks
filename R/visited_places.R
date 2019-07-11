@@ -54,13 +54,16 @@ visited <- list(
   "Denmark" = c("Bornholm", "Copenhagen", "Koge", "Roskilde", "Frederikssund", 
                 "Hundestad", "Liseleje", "Gilleleje", "Helsingor"),
   "Sweden" = c("Stockholm", "Ystad"),
-  "Norway" = c("Stavanger", "Preikestolen"),
+  "Norway" = c("Stavanger", "Preikestolen", "Bergen", "Spiterstulen", "Trondheim",
+               "Alesund", "Voss", "Flam"),
   "Iceland" = c("Reykjavik", "Vik i Myrdal", "Thorsmork", "Skogar", "Jokursarlon",
                 "Skaftafell", "Egilsstadir", "Borgarfjordur Eystri", "Seydisfjordur",
                 "Neskaupstadur", "Fellabaer", "Reydarfjordur", "Reyjahlid", 
                 "Myvatn", "Akureyri", "Snaefell"),
+  "Lithuania" = c("Vilnius", "Druskininkai", "Medininkai"),
   # North America -------------------------------------------------------------
-  "United States" = c("Salt Lake City"),
+  "United States" = c("Salt Lake City", "San Francisco, CA", "Mountain View, CA",
+                      "Palo Alto, CA", "Yosemite National Park"),
   # Asia ----------------------------------------------------------------------
   "Japan" = c("Kyoto", "Nara", "Osaka", "Kobe", "Himeji"),
   "China" = c("Shanghai", "Chengdu"),
