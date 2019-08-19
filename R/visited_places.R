@@ -34,7 +34,7 @@ visited <- list(
                     "Kinderdijk", "Zaanse Schans"),
   "Germany" = c("Berlin", "Hamburg", "Munich", "Bremerhaven", "Frankfurt am Main",
                 "Potsdam", "Helgoland", "Cuxhaven", "Karlsruhe", "Mainz", 
-                "Wiesbaden", "Heringsdorf"),
+                "Wiesbaden", "Heringsdorf", "Eibsee", "Garmisch-Partenkirchen"),
   "Switzerland" = c("Zurich", "Lucerne"),
   "Austria" = c("Vienna"),
   "Italy" = c("Rome", "Milan", "Cesenatico", "Rimini", "Venice", "Bergamo",
