@@ -29,42 +29,43 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |    8|Bulgaria               |Musala                     |2 925 m   | ✔️ |
 |    9|Greece                 |Mytikas                    |2 919 m   |                    |
 |   10|Slovenia               |Triglav                    |2 864 m   |                    |
-|   11|Albania & Macedonia    |Korab                      |2 764 m   |                    |
-|   12|Kosovo                 |Djeravica                  |2 656 m   |                    |
-|   13|Slovakia               |Gerlach                    |2 655 m   |                    |
-|   14|Liechtenstein          |Grauspitz                  |2 599 m   |                    |
-|   15|Romania                |Moldoveanu                 |2 544 m   | ✔️ |
-|   16|Montenegro             |Zla Kolata                 |2 534 m   |                    |
-|   17|Poland                 |Rysy                       |2 499 m   |                    |
-|   18|Norway                 |Galdhopiggen               |2 469 m   | ✔️ |
-|   19|Bosnia and Herzegovina |Maglic                     |2 386 m   |                    |
-|   20|Portugal               |Pico                       |2 351 m   |                    |
-|   21|Serbia                 |Midzur                     |2 169 m   |                    |
-|   22|Iceland                |Hvannadalshnukur           |2 110 m   |                    |
-|   23|Sweden                 |Kebnekaise                 |2 104 m   |                    |
-|   24|Ukraine                |Hoverla                    |2 061 m   |                    |
-|   25|Russia                 |Mount Narodnaya            |1 895 m   |                    |
-|   26|Croatia                |Vrh Dinare                 |1 831 m   |                    |
-|   27|Czech Republic         |Snezka                     |1 603 m   | ✔️ |
-|   28|United Kingdom         |Ben Nevis                  |1 344 m   |                    |
-|   29|Finland                |Halti                      |1 324 m   |                    |
-|   30|Ireland                |Carrantuohill              |1 041 m   | ✔️ |
-|   31|Turkey                 |Mahya Dagi                 |1 031 m   |                    |
-|   32|Hungary                |Kekes                      |1 014 m   |                    |
-|   33|Denmark                |Slaettaratindur            |882 m     |                    |
-|   34|San Marino             |Monte Titano               |749 m     | ✔️ |
-|   35|Belgium                |Signal de Botrange         |694 m     | ✔️ |
-|   36|Luksemburg             |Kneiff                     |560 m     |                    |
-|   37|Kazakhstan             |Unnamed peak               |509 m     |                    |
-|   38|Moldova                |Balanesti                  |430 m     |                    |
-|   39|Belarus                |Dzyarzhynskaya Hara        |345 m     |                    |
-|   40|The Netherlands        |Vaalsenberg                |321 m     | ✔️ |
-|   41|Estonia                |Suur Munamagi              |318 m     |                    |
-|   42|Latvia                 |Gaizinkalns                |312 m     |                    |
-|   43|Lithuania              |Aukstojas Hill             |294 m     | ✔️ |
-|   44|Malta                  |Ta' Dmejrek                |253 m     |                    |
-|   45|Monaco                 |Chemin des Revoires        |163 m     |                    |
-|   46|Vatican                |Vatican Hill               |75 m      |                    |
+|   11|Albania                |Korab                      |2 764 m   |                    |
+|    -|North Macedonia        |Korab                      |2 764 m   |                    |
+|   13|Kosovo                 |Djeravica                  |2 656 m   |                    |
+|   14|Slovakia               |Gerlach                    |2 655 m   |                    |
+|   15|Liechtenstein          |Grauspitz                  |2 599 m   |                    |
+|   16|Romania                |Moldoveanu                 |2 544 m   | ✔️ |
+|   17|Montenegro             |Zla Kolata                 |2 534 m   |                    |
+|   18|Poland                 |Rysy                       |2 499 m   |                    |
+|   19|Norway                 |Galdhopiggen               |2 469 m   | ✔️ |
+|   20|Bosnia and Herzegovina |Maglic                     |2 386 m   |                    |
+|   21|Portugal               |Pico                       |2 351 m   |                    |
+|   22|Serbia                 |Midzur                     |2 169 m   |                    |
+|   23|Iceland                |Hvannadalshnukur           |2 110 m   |                    |
+|   24|Sweden                 |Kebnekaise                 |2 104 m   |                    |
+|   25|Ukraine                |Hoverla                    |2 061 m   |                    |
+|   26|Russia                 |Mount Narodnaya            |1 895 m   |                    |
+|   27|Croatia                |Vrh Dinare                 |1 831 m   |                    |
+|   28|Czech Republic         |Snezka                     |1 603 m   | ✔️ |
+|   29|United Kingdom         |Ben Nevis                  |1 344 m   |                    |
+|   30|Finland                |Halti                      |1 324 m   |                    |
+|   31|Ireland                |Carrantuohill              |1 041 m   | ✔️ |
+|   32|Turkey                 |Mahya Dagi                 |1 031 m   |                    |
+|   33|Hungary                |Kekes                      |1 014 m   |                    |
+|   34|Denmark                |Slaettaratindur            |882 m     |                    |
+|   35|San Marino             |Monte Titano               |749 m     | ✔️ |
+|   36|Belgium                |Signal de Botrange         |694 m     | ✔️ |
+|   37|Luksemburg             |Kneiff                     |560 m     |                    |
+|   38|Kazakhstan             |Unnamed peak               |509 m     |                    |
+|   39|Moldova                |Balanesti                  |430 m     |                    |
+|   40|Belarus                |Dzyarzhynskaya Hara        |345 m     |                    |
+|   41|The Netherlands        |Vaalsenberg                |321 m     | ✔️ |
+|   42|Estonia                |Suur Munamagi              |318 m     |                    |
+|   43|Latvia                 |Gaizinkalns                |312 m     |                    |
+|   44|Lithuania              |Aukstojas Hill             |294 m     | ✔️ |
+|   45|Malta                  |Ta' Dmejrek                |253 m     |                    |
+|   46|Monaco                 |Chemin des Revoires        |163 m     |                    |
+|   47|Vatican                |Vatican Hill               |75 m      |                    |
 
 
 
