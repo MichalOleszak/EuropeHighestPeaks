@@ -15,7 +15,7 @@ eur_ctrs <- c("Portugal", "Spain", "Monaco", "France", "Poland",
 "Kazakhstan", "Bosnia", "Albania", "Luxembourg", "Liechtenstein",
 "Azerbaijan", "Armenia")
 
-eur_peaks <- read_delim("data/eur_peaks.csv", delim = ";")
+eur_peaks <- read_delim("../data/eur_peaks.csv", delim = ";")
 
 kable(
   eur_peaks %>% 
@@ -43,5 +43,5 @@ plt <- ggplot(eur_peaks, aes(x = lon, y = lat, text = Peak)) +
 
 #ggplotly(p, tooltip = "text")
 
-ggsave("img/kge.png", plot = plt,
+ggsave("../img/kge.png", plot = plt,
        height = 6, width = 9)
