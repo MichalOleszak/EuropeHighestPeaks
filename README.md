@@ -61,7 +61,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |   40|Belarus                |Dzyarzhynskaya Hara        |345 m     |                    |
 |   41|The Netherlands        |Vaalsenberg                |321 m     | ✔️ |
 |   42|Estonia                |Suur Munamagi              |318 m     |                    |
-|   43|Latvia                 |Gaizinkalns                |312 m     |                    |
+|   43|Latvia                 |Gaizinkalns                |312 m     | ✔️ |
 |   44|Lithuania              |Aukstojas Hill             |294 m     | ✔️ |
 |   45|Malta                  |Ta' Dmejrek                |253 m     |                    |
 |   46|Monaco                 |Chemin des Revoires        |163 m     |                    |
