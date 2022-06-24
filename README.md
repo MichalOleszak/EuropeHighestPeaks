@@ -52,7 +52,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |   31|Ireland                |Carrantuohill              |1 041 m   | ✔️ |
 |   32|Turkey                 |Mahya Dagi                 |1 031 m   |                    |
 |   33|Hungary                |Kekes                      |1 014 m   |                    |
-|   34|Denmark                |Slaettaratindur            |882 m     |                    |
+|   34|Denmark                |Slaettaratindur            |882 m     | ✔️ |
 |   35|San Marino             |Monte Titano               |749 m     | ✔️ |
 |   36|Belgium                |Signal de Botrange         |694 m     | ✔️ |
 |   37|Luksemburg             |Kneiff                     |560 m     |                    |
