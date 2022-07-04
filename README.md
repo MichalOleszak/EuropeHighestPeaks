@@ -36,7 +36,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |   15|Liechtenstein          |Grauspitz                  |2 599 m   |                    |
 |   16|Romania                |Moldoveanu                 |2 544 m   | ✔️ |
 |   17|Montenegro             |Zla Kolata                 |2 534 m   | ✔️ |
-|   18|Poland                 |Rysy                       |2 499 m   |                    |
+|   18|Poland                 |Rysy                       |2 499 m   | ✔️ |
 |   19|Norway                 |Galdhopiggen               |2 469 m   | ✔️ |
 |   20|Bosnia and Herzegovina |Maglic                     |2 386 m   |                    |
 |   21|Portugal               |Pico                       |2 351 m   |                    |
