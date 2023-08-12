@@ -55,7 +55,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |   34|Denmark                |Slaettaratindur            |882 m     | ✔️ |
 |   35|San Marino             |Monte Titano               |749 m     | ✔️ |
 |   36|Belgium                |Signal de Botrange         |694 m     | ✔️ |
-|   37|Luksemburg             |Kneiff                     |560 m     |                    |
+|   37|Luksemburg             |Kneiff                     |560 m     | ✔️ |
 |   38|Kazakhstan             |Unnamed peak               |509 m     |                    |
 |   39|Moldova                |Balanesti                  |430 m     |                    |
 |   40|Belarus                |Dzyarzhynskaya Hara        |345 m     |                    |
