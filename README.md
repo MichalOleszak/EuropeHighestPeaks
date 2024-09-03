@@ -23,7 +23,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |    2|Italy                  |Monte Bianco di Courmayeur |4 748 m   |                    |
 |    3|Switzerland            |Dufourspitze               |4 634 m   |                    |
 |    4|Austria                |Grossglockner              |3 798 m   |                    |
-|    5|Spain                  |Mulhacen                   |3 479 m   |                    |
+|    5|Spain                  |Mulhacen                   |3 479 m   | ✔️ |
 |    6|Germany                |Zugspitze                  |2 962 m   | ✔️ |
 |    7|Andorra                |Coma Pedrosa               |2 942 m   |                    |
 |    8|Bulgaria               |Musala                     |2 925 m   | ✔️ |
