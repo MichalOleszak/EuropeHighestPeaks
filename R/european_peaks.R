@@ -2,6 +2,7 @@ library(dplyr)
 library(ggplot2)
 library(ggmap)
 library(readr)
+library(knitr)
 
 eur_ctrs <- c("Portugal", "Spain", "Monaco", "France", "Poland",
 "Gibraltar", "England", "Scotland", "Ireland", "Belgium",
@@ -39,9 +40,10 @@ plt <- ggplot(eur_peaks, aes(x = lon, y = lat, text = Peak)) +
         axis.text = element_blank(),
         axis.ticks = element_blank(),
         plot.title = element_text(hjust = 0.5, face = "bold"),
-        legend.position = "top")
+        legend.position = "none")
 
 #ggplotly(p, tooltip = "text")
 
 ggsave("../img/kge.png", plot = plt,
        height = 6, width = 9)
+

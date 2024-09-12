@@ -3,7 +3,7 @@ France;Mont Blanc;4 809;no;45.83277778;6.86472222
 Italy;Monte Bianco di Courmayeur;4 748;no;45.82888889;6.86944444
 Switzerland;Dufourspitze;4 634;no;45.93666667;7.88361111
 Austria;Grossglockner;3 798;no;47.075;12.69444444
-Spain;Mulhacen;3 479;no;37.05527778;-3.31055556
+Spain;Mulhacen;3 479;yes;37.05527778;-3.31055556
 Germany;Zugspitze;2 962;yes;47.41666667;10.98333333
 Andorra;Coma Pedrosa;2 942;no;42.59194444;1.44361111
 Bulgaria;Musala;2 925;yes;42.17972222;23.58916667
@@ -12,7 +12,7 @@ Slovenia;Triglav;2 864;no;46.37833333;13.84111111
 Albania & Macedonia;Korab;2 764;no;41.79027778;20.54666667
 Kosovo;Djeravica;2 656;no;42.53277778;20.14027778
 Slovakia;Gerlach;2 655;no;49.16388889;20.13388889
-Liechtenstein;Grauspitz;2 599;no;47.05277778;9.58194444
+Liechtenstein;Grauspitz;2 599;yes;47.05277778;9.58194444
 Romania;Moldoveanu;2 544;yes;45.59944444;24.73611111
 Montenegro;Zla Kolata;2 534;yes;42.48888889;19.90222222
 Poland;Rysy;2 499;yes;49.17944444;20.08833333
