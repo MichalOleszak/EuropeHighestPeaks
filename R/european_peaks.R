@@ -2,19 +2,18 @@ library(dplyr)
 library(ggplot2)
 library(ggmap)
 library(readr)
-library(knitr)
 
 eur_ctrs <- c("Portugal", "Spain", "Monaco", "France", "Poland",
-"Gibraltar", "England", "Scotland", "Ireland", "Belgium",
-"Netherlands", "Germany", "Switzerland", "Austria", "Italy",
-"SanMarino", "Vatican", "Croatia", "Montenegro", "Greece",
-"Bulgaria", "Romania", "Hungary", "Slovakia", "CzechRepublic",
-"Denmark", "Sweden", "Norway", "Iceland", "Georgia", "Cyprus",
-"UK", "Czech Republic", "Serbia", "Kosovo", "Moldova", "Ukraine",
-"Russia", "Faroe Islands", "Lithuania", "Latvia", "Macedonia",
-"Estonia", "Malta", "Belarus", "Turkey", "Slovenia", "Finland",
-"Kazakhstan", "Bosnia", "Albania", "Luxembourg", "Liechtenstein",
-"Azerbaijan", "Armenia")
+              "Gibraltar", "England", "Scotland", "Ireland", "Belgium",
+              "Netherlands", "Germany", "Switzerland", "Austria", "Italy",
+              "SanMarino", "Vatican", "Croatia", "Montenegro", "Greece",
+              "Bulgaria", "Romania", "Hungary", "Slovakia", "CzechRepublic",
+              "Denmark", "Sweden", "Norway", "Iceland", "Georgia", "Cyprus",
+              "UK", "Czech Republic", "Serbia", "Kosovo", "Moldova", "Ukraine",
+              "Russia", "Faroe Islands", "Lithuania", "Latvia", "Macedonia",
+              "Estonia", "Malta", "Belarus", "Turkey", "Slovenia", "Finland",
+              "Kazakhstan", "Bosnia", "Albania", "Luxembourg", "Liechtenstein",
+              "Azerbaijan", "Armenia")
 
 eur_peaks <- read_delim("../data/eur_peaks.csv", delim = ";")
 
@@ -33,9 +32,9 @@ plt <- ggplot(eur_peaks, aes(x = lon, y = lat, text = Peak)) +
   ylim(c(35, 72)) +
   geom_point(aes(fill = Climbed), size = 4, shape = 21, alpha = 0.7) +
   scale_fill_manual(values = c("#CC3300", "#00FF33")) +
-  ggtitle(paste0("Climbed ", sum(eur_peaks$Climbed == "yes"), 
-                 " European countries' highest peaks, ",
-                 "out of 46")) +
+  #  ggtitle(paste0("Climbed ", sum(eur_peaks$Climbed == "yes"), 
+  #                 " European countries' highest peaks, ",
+  #                 "out of 46")) +
   theme(axis.title = element_blank(),
         axis.text = element_blank(),
         axis.ticks = element_blank(),
@@ -46,4 +45,3 @@ plt <- ggplot(eur_peaks, aes(x = lon, y = lat, text = Peak)) +
 
 ggsave("../img/kge.png", plot = plt,
        height = 6, width = 9)
-
