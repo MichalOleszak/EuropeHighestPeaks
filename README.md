@@ -19,39 +19,39 @@ The goal of the project is to visit the highest natural elevation of each sovere
 
 | Rank|Country                |Peak                       |Elevation |Climbed             |
 |----:|:----------------------|:--------------------------|:---------|:-------------------|
-|    1|France                 |Mont Blanc                 |4 809 m   |                    |
-|    2|Italy                  |Monte Bianco di Courmayeur |4 748 m   |                    |
-|    3|Switzerland            |Dufourspitze               |4 634 m   |                    |
-|    4|Austria                |Grossglockner              |3 798 m   |                    |
-|    5|Spain                  |Mulhacen                   |3 479 m   | ✔️ |
-|    6|Germany                |Zugspitze                  |2 962 m   | ✔️ |
-|    7|Andorra                |Coma Pedrosa               |2 942 m   |                    |
-|    8|Bulgaria               |Musala                     |2 925 m   | ✔️ |
-|    9|Greece                 |Mytikas                    |2 919 m   |                    |
-|   10|Slovenia               |Triglav                    |2 864 m   |                    |
-|   11|Albania                |Korab                      |2 764 m   |                    |
-|    -|North Macedonia        |Korab                      |2 764 m   |                    |
-|   12|Kosovo                 |Djeravica                  |2 656 m   |                    |
-|   13|Slovakia               |Gerlach                    |2 655 m   |                    |
-|   14|Liechtenstein          |Grauspitz                  |2 599 m   | ✔️ |
-|   15|Romania                |Moldoveanu                 |2 544 m   | ✔️ |
-|   16|Montenegro             |Zla Kolata                 |2 534 m   | ✔️ |
-|   17|Poland                 |Rysy                       |2 499 m   | ✔️ |
-|   18|Norway                 |Galdhopiggen               |2 469 m   | ✔️ |
-|   19|Bosnia and Herzegovina |Maglic                     |2 386 m   |                    |
-|   20|Portugal               |Pico                       |2 351 m   |                    |
-|   21|Serbia                 |Midzur                     |2 169 m   |                    |
-|   22|Iceland                |Hvannadalshnukur           |2 110 m   |                    |
-|   23|Sweden                 |Kebnekaise                 |2 104 m   |                    |
-|   24|Ukraine                |Hoverla                    |2 061 m   |                    |
-|   25|Russia                 |Mount Narodnaya            |1 895 m   |                    |
-|   26|Croatia                |Vrh Dinare                 |1 831 m   |                    |
-|   27|Czech Republic         |Snezka                     |1 603 m   | ✔️ |
-|   28|United Kingdom         |Ben Nevis                  |1 344 m   |                    |
-|   29|Finland                |Halti                      |1 324 m   |                    |
-|   30|Ireland                |Carrantuohill              |1 041 m   | ✔️ |
-|   31|Turkey                 |Mahya Dagi                 |1 031 m   |                    |
-|   32|Hungary                |Kekes                      |1 014 m   |                    |
+|    1|France                 |Mont Blanc                 |4,809 m   |                    |
+|    2|Italy                  |Monte Bianco di Courmayeur |4,748 m   |                    |
+|    3|Switzerland            |Dufourspitze               |4,634 m   |                    |
+|    4|Austria                |Grossglockner              |3,798 m   |                    |
+|    5|Spain                  |Mulhacen                   |3,479 m   | ✔️ |
+|    6|Germany                |Zugspitze                  |2,962 m   | ✔️ |
+|    7|Andorra                |Coma Pedrosa               |2,942 m   |                    |
+|    8|Bulgaria               |Musala                     |2,925 m   | ✔️ |
+|    9|Greece                 |Mytikas                    |2,919 m   |                    |
+|   10|Slovenia               |Triglav                    |2,864 m   |                    |
+|   11|Albania                |Korab                      |2,764 m   |                    |
+|    -|North Macedonia        |Korab                      |2,764 m   |                    |
+|   12|Kosovo                 |Djeravica                  |2,656 m   |                    |
+|   13|Slovakia               |Gerlach                    |2,655 m   |                    |
+|   14|Liechtenstein          |Grauspitz                  |2,599 m   | ✔️ |
+|   15|Romania                |Moldoveanu                 |2,544 m   | ✔️ |
+|   16|Montenegro             |Zla Kolata                 |2,534 m   | ✔️ |
+|   17|Poland                 |Rysy                       |2,499 m   | ✔️ |
+|   18|Norway                 |Galdhopiggen               |2,469 m   | ✔️ |
+|   19|Bosnia and Herzegovina |Maglic                     |2,386 m   |                    |
+|   20|Portugal               |Pico                       |2,351 m   |                    |
+|   21|Serbia                 |Midzur                     |2,169 m   |                    |
+|   22|Iceland                |Hvannadalshnukur           |2,110 m   |                    |
+|   23|Sweden                 |Kebnekaise                 |2,104 m   |                    |
+|   24|Ukraine                |Hoverla                    |2,061 m   |                    |
+|   25|Russia                 |Mount Narodnaya            |1,895 m   |                    |
+|   26|Croatia                |Vrh Dinare                 |1,831 m   |                    |
+|   27|Czech Republic         |Snezka                     |1,603 m   | ✔️ |
+|   28|United Kingdom         |Ben Nevis                  |1,344 m   |                    |
+|   29|Finland                |Halti                      |1,324 m   |                    |
+|   30|Ireland                |Carrantuohill              |1,041 m   | ✔️ |
+|   31|Turkey                 |Mahya Dagi                 |1,031 m   |                    |
+|   32|Hungary                |Kekes                      |1,014 m   |                    |
 |   33|Denmark                |Slaettaratindur            |882 m     | ✔️ |
 |   34|San Marino             |Monte Titano               |749 m     | ✔️ |
 |   35|Belgium                |Signal de Botrange         |694 m     | ✔️ |
