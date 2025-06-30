@@ -28,7 +28,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |    6|Andorra                |Coma Pedrosa               |2,942 m   |                    |
 |    7|Bulgaria               |Musala                     |2,925 m   | ✔️ |
 |    8|Greece                 |Mytikas                    |2,919 m   |                    |
-|    9|Slovenia               |Triglav                    |2,864 m   |                    |
+|    9|Slovenia               |Triglav                    |2,864 m   | ✔️ |
 |   10|Albania                |Korab                      |2,764 m   |                    |
 |    -|North Macedonia        |Korab                      |2,764 m   |                    |
 |   11|Kosovo                 |Djeravica                  |2,656 m   |                    |
