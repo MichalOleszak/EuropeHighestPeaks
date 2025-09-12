@@ -22,7 +22,7 @@ The goal of the project is to visit the highest natural elevation of each sovere
 |    1|France                 |Mont Blanc                 |4,809 m   |                    |
 |    -|Italy                  |Mont Blanc                 |4,809 m   |                    |
 |    2|Switzerland            |Dufourspitze               |4,634 m   |                    |
-|    3|Austria                |Grossglockner              |3,798 m   |                    |
+|    3|Austria                |Grossglockner              |3,798 m   | ✔️ |
 |    4|Spain                  |Mulhacen                   |3,479 m   | ✔️ |
 |    5|Germany                |Zugspitze                  |2,962 m   | ✔️ |
 |    6|Andorra                |Coma Pedrosa               |2,942 m   |                    |
