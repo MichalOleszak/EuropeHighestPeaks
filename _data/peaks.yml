@@ -1,0 +1,115 @@
+- country: France
+  peak: Mont Blanc
+  elevation: "4 809"
+  climbed: false
+  lat: 45.83277778
+  lon: 6.86472222
+- country: Italy
+  peak: Monte Bianco di Courmayeur
+  elevation: "4 748"
+  climbed: false
+  lat: 45.82888889
+  lon: 6.86944444
+- country: Switzerland
+  peak: Dufourspitze
+  elevation: "4 634"
+  climbed: false
+  lat: 45.93666667
+  lon: 7.88361111
+- country: Austria
+  peak: Grossglockner
+  elevation: "3 798"
+  climbed: true
+  lat: 47.075
+  lon: 12.69444444
+- country: Spain
+  peak: Mulhacen
+  elevation: "3 479"
+  climbed: true
+  lat: 37.05527778
+  lon: -3.31055556
+- country: Germany
+  peak: Zugspitze
+  elevation: "2 962"
+  climbed: true
+  lat: 47.41666667
+  lon: 10.98333333
+- country: Andorra
+  peak: Coma Pedrosa
+  elevation: "2 942"
+  climbed: false
+  lat: 42.59194444
+  lon: 1.44361111
+- country: Bulgaria
+  peak: Musala
+  elevation: "2 925"
+  climbed: true
+  lat: 42.17972222
+  lon: 23.58916667
+- country: Greece
+  peak: Mytikas
+  elevation: "2 919"
+  climbed: false
+  lat: 40.08333333
+  lon: 22.35
+- country: Slovenia
+  peak: Triglav
+  elevation: "2 864"
+  climbed: true
+  lat: 46.37833333
+  lon: 13.84111111
+- country: Albania & Macedonia
+  peak: Korab
+  elevation: "2 764"
+  climbed: false
+  lat: 41.79027778
+  lon: 20.54666667
+- country: Kosovo
+  peak: Djeravica
+  elevation: "2 656"
+  climbed: false
+  lat: 42.53277778
+  lon: 20.14027778
+- country: Slovakia
+  peak: Gerlach
+  elevation: "2 655"
+  climbed: false
+  lat: 49.16388889
+  lon: 20.13388889
+- country: Liechtenstein
+  peak: Grauspitz
+  elevation: "2 599"
+  climbed: true
+  lat: 47.05277778
+  lon: 9.58194444
+- country: Romania
+  peak: Moldoveanu
+  elevation: "2 544"
+  climbed: true
+  lat: 45.59944444
+  lon: 24.73611111
+- country: Montenegro
+  peak: Zla Kolata
+  elevation: "2 534"
+  climbed: true
+  lat: 42.48888889
+  lon: 19.90222222
+- country: Poland
+  peak: Rysy
+  elevation: "2 499"
+  climbed: true
+  lat: 49.17944444
+  lon: 20.08833333
+- country: Norway
+  peak: Galdhopiggen
+  elevation: "2 469"
+  climbed: true
+  lat: 61.63638889
+  lon: 8.3125
+- country: Bosnia and Herzegovina
+  peak: Maglic
+  elevation: "2 386"
+  climbed: true
+  lat: 43.27861111
+  lon: 18.73333333
+# ...remaining rows omitted for brevity

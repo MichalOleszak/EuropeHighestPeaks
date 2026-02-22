@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Highest Peaks of Europe</title>
+  <!-- load external CSS from personal site for consistent style -->
+  <link rel="stylesheet" href="https://michaloleszak.github.io/css/main.css">
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- inline map sizing removed — CSS in css/site.css now controls the map size -->
+
+<div class="main-content container">
+  <div class="d-flex justify-content-between align-items-center">
+    <h1 class="text-center flex-grow-1 mt-0">🇪🇺🏔️ Highest Peaks of European Countries</h1>
+    <!-- assumptions button -->
+    <button id="assumptions-btn" class="btn btn-sm" aria-haspopup="dialog" title="Assumptions" style="margin-left:0.5rem;">
+      <i class="fa-solid fa-circle-info"></i>
+    </button>
+  </div>
+  <div class="card mb-4 p-3">
+    <div id="map"></div>
+  </div>
+
+  <!-- Assumptions modal (hidden) -->
+  <div id="assumptions-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="assumptions-title">
+    <div class="modal-content" role="document">
+      <button class="modal-close" id="assumptions-close" aria-label="Close">&times;</button>
+      <h2 id="assumptions-title">Assumptions behind the list</h2>
+      <div class="modal-body">
+        <p>This list includes only peaks located on the European continent as defined by the <a href="https://en.wikipedia.org/wiki/Boundaries_between_the_continents_of_Earth#Europe_and_Asia" target="_blank" rel="noopener">International Geographical Union</a>. Peaks outside Europe are excluded, even if they belong politically to a European country.</p>
+        <p>Examples of excluded peaks: Pico del Teide (Spain, Canary Islands), Gunnbjørn Fjeld (Denmark, Greenland), and Mount Scenery (The Netherlands, Caribbean Netherlands).</p>
+        <p>For transcontinental countries (Turkey, Russia, Kazakhstan), the entry is the highest point within their European territory. Mont Blanc is treated as shared by France and Italy, with the summit on the border.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filtering and searching removed as requested -->
+  <div class="card p-3">
+  <div class="table-responsive peak-table-narrow">
+  <table class="table table-striped peak-table-narrow">
+    <thead>
+      <tr><th>#</th><th>Country</th><th>Peak</th><th>Elevation (m)</th></tr>
+    </thead>
+    <tbody id="peaks-body">
+    <!-- rows populated by JS -->
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+<script src="/js/peaks-map.js"></script>
+<script src="https://michaloleszak.github.io/js/main.js"></script>
+
+<!-- Assumptions modal logic -->
+<script>
+(function(){
+  var btn = document.getElementById('assumptions-btn');
+  var modal = document.getElementById('assumptions-modal');
+  var close = document.getElementById('assumptions-close');
+  if(!btn || !modal) return;
+  function openModal(){
+    modal.setAttribute('aria-hidden','false');
+    modal.style.display = 'flex';
+    close && close.focus();
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    modal.setAttribute('aria-hidden','true');
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+    btn.focus();
+  }
+  btn.addEventListener('click', openModal);
+  close && close.addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){ if(e.target===modal) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && modal.getAttribute('aria-hidden')==='false') closeModal(); });
+})();
+</script>
+</body>
+</html>

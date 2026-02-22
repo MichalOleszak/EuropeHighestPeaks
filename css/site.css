@@ -1,0 +1,335 @@
+/* Reset default page margins/spacing */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/* no extra top padding; header spacing controlled by Bootstrap utility classes */
+body {
+  /* padding-top removed */
+}
+/* eliminate gap twice in case container adds it */
+.main-content, .main-content.container, .container.main-content {
+  margin-top: 0 !important;
+  padding-top: 2rem !important; /* forced breathing room above the title */
+  padding-left: 2.5rem !important; /* leave some margin from the left edge */
+  padding-right: 2.5rem !important; /* keep right side balanced */
+  position: relative; /* allow absolutely positioned controls inside */
+}
+/* ensure page title sits flush against top, but allow a little breathing room */
+h1 {
+  margin-top: 0.5rem;
+}
+/* Map container sizing */
+#map {
+  border: 2px solid rgba(0,0,0,0.08);
+  border-radius: 12px;
+  height: 60vh;
+  max-width: 70vw;
+  margin: 0 auto 30px;
+  min-height: 300px;
+  box-sizing: border-box;
+}
+/* Peak table narrow and centered */
+.peak-table-narrow {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Table hover subtle */
+table tr:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+/* Row highlight opacity already applied inline in JS; ensure CSS won’t override it */
+table.table tbody tr {
+  transition: background-color 120ms ease;
+}
+/* Badge box styling */
+.climbed-count-badge {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 0.6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #e0e0e0;
+}
+/* Tooltip and flag styling */
+.leaflet-tooltip .flag {
+  margin-right: 4px;
+  font-size: 1.1em;
+}
+.flag-img {
+  width: 18px;
+  height: 14px;
+  vertical-align: middle;
+  margin-right: 6px;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+/* Simple dark/light overrides only where necessary (Bootstrap handles most) */
+html[data-bs-theme='dark'] body {
+  background-color: #0f1724;
+  color: #e6eef8;
+}
+html[data-bs-theme='light'] body {
+  background-color: #ffffff;
+  color: #111827;
+}
+/* Small responsiveness */
+@media (max-width: 900px) {
+  #map, .peak-table-narrow { max-width: 95vw; }
+  h1 { margin-left: 1rem; }
+}
+
+/* Modal styles for assumptions */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2,6,23,0.6);
+  z-index: 1050;
+  padding: 1.25rem;
+}
+.modal-content {
+  background: var(--bs-body-bg, #fff);
+  color: var(--bs-body-color, #111);
+  max-width: 880px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  padding: 1.25rem 1.5rem;
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.4rem;
+  border: none;
+  background: transparent;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.modal-body { margin-top: 0.6rem; }
+/* Ensure the modal heading is always dark for readability */
+#assumptions-title {
+  color: #000 !important;
+  font-weight: 700;
+}
+/* Restore badge box styling */
+.climbed-count-badge {
+  background: #fff;
+  border-radius: 1.5em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 0.5em 1.2em;
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #e0e0e0;
+}
+/* Badge label alignment fix */
+.climbed-count-badge .count {
+  font-weight: bold;
+  font-size: 2em;
+  color: #198754;
+  margin-bottom: 0.2em;
+  display: inline-block;
+}
+.climbed-count-badge .peaks-label {
+  font-size: 1em !important;
+  color: #555 !important;
+  font-weight: normal !important;
+  margin-left: 0 !important;
+  display: block !important;
+  text-align: left !important;
+  margin-top: 0.6em !important;
+  line-height: 1.2 !important;
+  font-family: inherit !important;
+}
+}
+.climbed-count-badge .label {
+  font-size: 1.1em;
+  color: #555;
+  text-align: left;
+  margin-left: 0.5em;
+  display: block;
+}
+/* Make peak table narrower */
+.peak-table-narrow {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+/* Climbed badge styling */
+.climbed-count-badge {
+  background: #fff;
+  border-radius: 1.5em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 0.5em 1.2em;
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+}
+.climbed-count-badge .count {
+  font-weight: bold;
+  font-size: 1.6em;
+  color: #198754;
+  margin-bottom: 0.2em;
+}
+.climbed-count-badge .label {
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+}
+/* additional overrides for EuropeHighestPeaks */
+
+/* reset default page margins/spacing */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* no extra top padding; header spacing controlled by Bootstrap utility classes */
+body {
+  /* padding-top removed */
+}
+
+/* eliminate gap twice in case container adds it */
+.main-content, .main-content.container, .container.main-content {
+  margin-top: 0 !important;
+  padding-top: 2rem !important; /* forced breathing room above the title */
+  padding-left: 2.5rem !important; /* leave some margin from the left edge */
+  padding-right: 2.5rem !important; /* keep right side balanced */
+}
+
+/* ensure page title sits flush against top, but allow a little breathing room */
+h1 {
+  margin-top: 0.5rem;
+}
+table tr:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+#map {
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  height: 60vh;        /* shorter vertically */
+  max-width: 70vw;     /* scale down width accordingly */
+  margin: 0 auto 30px; /* center horizontally */
+  min-height: 300px;
+}
+
+/* tooltip flag styling */
+.leaflet-tooltip .flag {
+  margin-right: 2px;
+  font-size: 1.2em;
+}
+
+/* small image flags used in tooltips */
+.flag-img{
+  width:18px;
+  height:14px;
+  vertical-align:middle;
+  margin-right:2px;
+  border:1px solid rgba(0,0,0,0.05);
+}
+
+/* Tooltip improvements: allow wrapping, set a sensible max-width */
+.leaflet-tooltip.peak-tooltip {
+  /* allow the tooltip to size to its content (two nowrap lines) */
+  white-space: normal !important;
+  max-width: none !important;
+  word-break: normal !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+  padding: 8px 12px 16px 12px !important; /* more bottom padding for descenders */
+  display: inline-block !important;
+  min-width: 120px !important;
+  min-height: 40px !important;
+  line-height: 1.7 !important;
+}
+
+/* Modern circular info button (Assumptions) */
+#assumptions-btn {
+  position: absolute;
+  right: 1.25rem;
+  top: 1rem;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.08);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.55);
+  cursor: pointer;
+  transition: transform 120ms ease, background 120ms ease;
+  z-index: 1200;
+}
+#assumptions-btn i { font-size: 1.05rem; }
+#assumptions-btn:hover { transform: translateY(-2px); background: rgba(255,255,255,0.09); }
+#assumptions-btn:active { transform: translateY(0); }
+#assumptions-btn:focus {
+  outline: 3px solid rgba(255,255,255,0.12);
+  outline-offset: 2px;
+}
+
+/* On small screens move the button next to the title to avoid overlap */
+@media (max-width: 900px) {
+  #assumptions-btn { right: 0.9rem; top: 0.8rem; width: 40px; height: 40px; }
+}
+
+/* keep peak title on its own line but inline so letters don't stack */
+.leaflet-tooltip.peak-tooltip strong {
+  display: inline-block;
+}
+
+/* tip lines: prevent wrapping and keep exactly two lines */
+.leaflet-tooltip.peak-tooltip .tip-country,
+.leaflet-tooltip.peak-tooltip .tip-peak{
+  display: block;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+/* ensure tooltip content has comfortable line-height so descenders fit */
+.leaflet-tooltip.peak-tooltip .leaflet-tooltip-content,
+.leaflet-tooltip.peak-tooltip .tip-country,
+.leaflet-tooltip.peak-tooltip .tip-peak {
+  line-height: 1.7 !important;
+}
+
+/* Ensure Leaflet tooltip container and inner content expand to fit text */
+.leaflet-tooltip.peak-tooltip,
+.leaflet-tooltip.peak-tooltip .leaflet-tooltip-content {
+  width: auto !important;
+  max-width: none !important;
+  display: inline-block !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+}
+
+/* ensure country line and peak line have normal font sizes and spacing */
+.leaflet-tooltip.peak-tooltip .tip-country{ margin-bottom:4px; }
+.leaflet-tooltip.peak-tooltip .tip-peak{ font-weight: 600; }
+
+/* Center the climbed-count badge content */
+.climbed-count-badge {
+  align-items: center !important;
+  text-align: center !important;
+}
+.climbed-count-badge .count,
+.climbed-count-badge .peaks-label,
+.climbed-count-badge .label {
+  display: block !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
