@@ -1,3 +1,3 @@
-# Highest Peaks of European Countries
+# Europe's Highest Peaks
 
 Peak tracker.
