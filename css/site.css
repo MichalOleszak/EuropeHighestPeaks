@@ -287,6 +287,34 @@ table tr:hover {
   #assumptions-btn { right: 0.9rem; top: 0.8rem; width: 40px; height: 40px; }
 }
 
+/* Back button styling positioned to the left of the assumptions button */
+#back-btn {
+  position: absolute;
+  right: 6.25rem; /* place left of the info button */
+  top: 1rem;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.04);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.06);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 14px rgba(2,6,23,0.45);
+  cursor: pointer;
+  transition: transform 120ms ease, background 120ms ease;
+  z-index: 1200;
+  text-decoration: none;
+}
+#back-btn:hover { transform: translateY(-2px); background: rgba(255,255,255,0.07); }
+#back-btn:focus { outline: 3px solid rgba(255,255,255,0.12); outline-offset: 2px; }
+
+@media (max-width: 900px) {
+  #back-btn { right: 5.5rem; top: 0.8rem; width: 40px; height: 40px; }
+}
+
 /* keep peak title on its own line but inline so letters don't stack */
 .leaflet-tooltip.peak-tooltip strong {
   display: inline-block;
