@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 0);
   });
 
-  Papa.parse('/data/eur_peaks.csv', {
+  Papa.parse('data/eur_peaks.csv', {
     download: true,
     header: true,
     delimiter: ';',
