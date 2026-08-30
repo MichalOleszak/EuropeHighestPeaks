@@ -1,7 +1,7 @@
 - country: France
   peak: Mont Blanc
   elevation: "4 809"
-  climbed: false
+  climbed: true
   lat: 45.83277778
   lon: 6.86472222
 - country: Italy
