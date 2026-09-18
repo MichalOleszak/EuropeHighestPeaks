@@ -19,12 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Inject Carto API key
-        env:
-          CARTO_API_KEY: ${{ secrets.CARTO_API_KEY }}
-        run: |
-          node -e 'const fs = require("fs"); fs.writeFileSync("js/carto-config-v2.js", `window.CARTO_BASEMAPS_KEY = ${JSON.stringify(process.env.CARTO_API_KEY || "")};\\n`);'
-
       - uses: actions/configure-pages@v5
 
       - uses: actions/jekyll-build-pages@v1

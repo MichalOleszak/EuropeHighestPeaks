@@ -29,13 +29,10 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   // initialize map with fractional zoom support – will recenter when data loads
   var map = L.map('map', { zoomSnap: 0.5, zoomDelta: 0.25 });
-  // use a simpler, light-styled basemap with minimal administrative borders
-  var cartoKey = window.CARTO_BASEMAPS_KEY;
-  var tileUrl = 'https://basemaps.cartocdn.com/rastertiles/light_nolabels/{z}/{x}/{y}{r}.png' +
-    (cartoKey ? '?key=' + encodeURIComponent(cartoKey) : '');
-  L.tileLayer(tileUrl, {
+  // OpenStreetMap tiles are free to use with attribution and need no API key.
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 13,
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
   map.invalidateSize();
 
