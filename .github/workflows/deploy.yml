@@ -20,8 +20,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Inject Carto API key
+        env:
+          CARTO_API_KEY: ${{ secrets.CARTO_API_KEY }}
         run: |
-          sed -i "s|window.CARTO_BASEMAPS_KEY = '';|window.CARTO_BASEMAPS_KEY = '${{ secrets.CARTO_API_KEY }}';|" map/carto-config.js
+          node -e 'const fs = require("fs"); fs.writeFileSync("js/carto-config.js", `window.CARTO_BASEMAPS_KEY = ${JSON.stringify(process.env.CARTO_API_KEY || "")};\\n`);'
 
       - uses: actions/configure-pages@v5
 
