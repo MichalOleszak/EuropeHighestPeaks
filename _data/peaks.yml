@@ -61,7 +61,7 @@
 - country: Albania & Macedonia
   peak: Korab
   elevation: "2 764"
-  climbed: false
+  climbed: true
   lat: 41.79027778
   lon: 20.54666667
 - country: Kosovo
